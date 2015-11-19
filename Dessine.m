@@ -1,8 +1,8 @@
 function [] = Dessine (t, tp, f)
 
 % Définition de la fonction à tracer
-x = x3(1, t, 1);
-xp = x3(1, tp, 1);
+x = x5(t, 1);
+xp = x5(tp, 1);
 
 % Calcul de la transformée de Fourier
 X = tfour(x);
